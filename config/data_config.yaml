@@ -1,0 +1,11 @@
+# config/data_config.yaml
+
+# Paths now point to the specific subfolders containing the .npy files
+raw_data:
+  msd_train: "data/raw/msd_dataset/train/full_out/"
+  msd_test: "data/raw/msd_dataset/test/full_out/"
+
+# Processed data paths remain the same
+processed_data:
+  msd_2d_train: "data/processed/msd_2d/train/"
+  msd_2d_test: "data/processed/msd_2d/test/"

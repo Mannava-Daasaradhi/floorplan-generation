@@ -1,0 +1,15 @@
+# Configuration for the 2D FloorplanGAN Model
+floorplan_gan:
+  learning_rate: 0.0002
+  beta1: 0.5
+  batch_size: 64
+  epochs: 200
+  latent_dim: 100
+  image_size: 256
+
+# Configuration for the 3D Shape Generator VAE Model
+shape_generator_vae:
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 150
+  latent_dim: 128

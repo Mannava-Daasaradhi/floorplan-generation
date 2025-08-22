@@ -1,0 +1,25 @@
+# Core ML/DL Frameworks (choose one or both)
+tensorflow
+#torch
+#torchvision
+#torchaudio
+
+# Data Handling and Numerics
+pandas
+numpy
+scikit-learn
+opencv-python
+pillow
+
+# 3D Data Processing
+open3d
+trimesh
+
+# Visualization
+matplotlib
+seaborn
+
+# Experimentation and Utilities
+jupyterlab
+tqdm
+pyyaml
